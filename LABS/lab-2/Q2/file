@@ -1,0 +1,11 @@
+program:main.o functions.o
+	g++ -o program main.o functions.o
+main.o:main.cpp header.h
+	g++ -c main.cpp
+functions.o:functions.cpp header.h
+	g++ -c functions.cpp
+clean:
+	rm -f *.o program
+
+
+

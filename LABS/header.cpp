@@ -1,0 +1,22 @@
+#include <cstddef>
+#include <iostream>
+#include <sys/shm.h>
+#include <string>
+#include <unistd.h>
+#include <stdio.h>
+#include <cstring>
+#include <fcntl.h>
+#include <stdlib.h>
+#include <sys/wait.h>
+#include <sys/mman.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <fstream>
+#include <cinttypes>
+#include <inttypes.h>
+#include <time.h>
+#include <errno.h>
+#include <pthread.h>
+#include <semaphore.h>
+#include <cstdio>
+
